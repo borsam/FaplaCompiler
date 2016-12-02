@@ -17,7 +17,7 @@ import org.antlr.v4.runtime.Token;
  */
 public class main {
     public static void main(String[] args) {
-        String fileName = "test/1.fapla";
+        String fileName = "test/test.fapla";
         File file = new File(fileName);
         FileInputStream fis = null;
         try {

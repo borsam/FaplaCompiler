@@ -1,0 +1,10 @@
+module main
+begin
+	x:rEaL;
+        y:ReAl;
+        z:real;
+        x=2;
+        y=13;
+        z=x-2*y^(2+2*(5-2));
+end
+
