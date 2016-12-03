@@ -1,4 +1,4 @@
-package fapla;// Generated from Fapla.g4 by ANTLR 4.5.3
+// Generated from Fapla.g4 by ANTLR 4.5.3
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
@@ -214,6 +214,18 @@ public class FaplaBaseListener implements FaplaListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBlockItem(FaplaParser.BlockItemContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterExpressionStatement(FaplaParser.ExpressionStatementContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitExpressionStatement(FaplaParser.ExpressionStatementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *

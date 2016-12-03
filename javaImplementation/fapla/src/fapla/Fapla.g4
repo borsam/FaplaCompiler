@@ -135,6 +135,7 @@ grammar Fapla;
         |   iterationStatement
         |   jumpStatement
         |   assignmentStatement
+        |   expressionStatement
         |   writeStatement
         |   readStatement
         |   declaration
@@ -152,6 +153,10 @@ grammar Fapla;
     blockItem
         :   declaration
         |   statement
+        ;
+
+     expressionStatement
+        :   expression? ';'
         ;
 
     selectionStatement

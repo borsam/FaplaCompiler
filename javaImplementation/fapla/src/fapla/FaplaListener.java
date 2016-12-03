@@ -1,4 +1,4 @@
-package fapla;// Generated from Fapla.g4 by ANTLR 4.5.3
+// Generated from Fapla.g4 by ANTLR 4.5.3
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
@@ -176,6 +176,16 @@ public interface FaplaListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitBlockItem(FaplaParser.BlockItemContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link FaplaParser#expressionStatement}.
+	 * @param ctx the parse tree
+	 */
+	void enterExpressionStatement(FaplaParser.ExpressionStatementContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link FaplaParser#expressionStatement}.
+	 * @param ctx the parse tree
+	 */
+	void exitExpressionStatement(FaplaParser.ExpressionStatementContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link FaplaParser#selectionStatement}.
 	 * @param ctx the parse tree
